@@ -10,3 +10,19 @@ __pycache__/
 
 # 가상 환경
 .venv/
+
+# 데이터 파일 (엑셀, 텍스트 등)
+*.xlsx
+*.xls
+*.txt
+# 단, requirements.txt는 예외
+!requirements.txt
+
+# 개발용 스크립트 및 테스트 파일
+check_col_d.py
+check_headers.py
+debug_run.py
+gspread_basic_test.py
+gui_skeleton.py
+inspect_excel.py
+test_integration_logic.py
