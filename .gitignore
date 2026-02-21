@@ -1,0 +1,12 @@
+# 민감 정보 및 설정 파일
+config.json
+*.json
+
+# 빌드 및 실행 파일
+dist/
+build/
+*.spec
+__pycache__/
+
+# 가상 환경
+.venv/
